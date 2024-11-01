@@ -1,7 +1,8 @@
-train/dev/test_data.json
---Data for train/dev/test. It's python dictionary. The keys are the health claims and the values are a list of PMIDs of the cited biomedical 
-literature.
+# From Claim to Evidence: Verifying Chinese Health Claims with Medical Literature
+## Accepted at NLPCC 2024
 
-pmid_abstract_dict_all.json
---It's python dictionary. The keys are the PMID of the biomedical literature and the values are the abstracts. It can be found [here](https://drive.google.com/file/d/1UzDG6t7wMMbAy-yoc6kG-ueR4csrbtzW/view?usp=sharing)
+This repository contains the dataset for the [paper](), where we present a bilingual query-based biomedical information retrieval task across two vastly different genres – Chinese newswire and English research literature. For this task, we developed a specialized IR dataset. It was constructed in two stages: first, we created a gold-standard dataset, which was then expanded into a silver-standard corpus.
 
+### Dataset
+- For gold-standard dataset, see [Gold-standard dataset](Gold-standard dataset/)
+- For silver-standard dataset, see [Silver-standard dataset](Silver-standard dataset/)
