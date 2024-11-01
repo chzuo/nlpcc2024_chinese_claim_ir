@@ -1,5 +1,5 @@
-train/dev/test_data.json
---Data for train/dev/test. It's python dictionary. The keys are the health claims and the values are a list of PMIDs of the cited biomedical 
+train/test_data.json
+--Data for train/test. It's python dictionary. The keys are the health claims and the values are a list of PMIDs of the cited biomedical 
 literature.
 
 pmid_abstract_dict_all.json

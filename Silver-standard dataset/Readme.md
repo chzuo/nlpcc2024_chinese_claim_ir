@@ -1,4 +1,4 @@
-train/dev/test_data.json
+train/dev/test_silver_data.json
 --Data for train/dev/test. It's python dictionary. The keys are the health claims and the values are a list of PMIDs of the cited biomedical 
 literature.
 
